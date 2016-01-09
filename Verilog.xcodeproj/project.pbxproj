@@ -6,10 +6,55 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		F042958F17989ED8001DAF44 /* bsort-BsortUnit.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "bsort-BsortUnit.s"; sourceTree = "<group>"; };
+		F042959017989F02001DAF44 /* bsort-BsortUnitSortCtrl.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "bsort-BsortUnitSortCtrl.s"; sourceTree = "<group>"; };
+		F042959117989F12001DAF44 /* bsort-BsortUnitSortDpath.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "bsort-BsortUnitSortDpath.s"; sourceTree = "<group>"; };
+		F042959217989F6A001DAF44 /* bsort-BsortUnitFetch.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "bsort-BsortUnitFetch.s"; sourceTree = "<group>"; };
+		F042959417989FBF001DAF44 /* gcd-GcdUnit.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "gcd-GcdUnit.s"; sourceTree = "<group>"; };
+		F042959517989FD6001DAF44 /* gcd-GcdUnitCtrl.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "gcd-GcdUnitCtrl.s"; sourceTree = "<group>"; };
+		F042959617989FF9001DAF44 /* gcd-GcdUnitDpath.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "gcd-GcdUnitDpath.s"; sourceTree = "<group>"; };
+		F0429597179B2E04001DAF44 /* bsort-BsortUnitSort.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "bsort-BsortUnitSort.s"; sourceTree = "<group>"; };
+		F0429598179C824C001DAF44 /* cmult-demo.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "cmult-demo.s"; sourceTree = "<group>"; };
+		F0429599179C82CE001DAF44 /* cmult_manager.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = cmult_manager.s; sourceTree = "<group>"; };
+		F046AA3317A73B3F009F16FD /* bsort-design2TestOld2.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "bsort-design2TestOld2.s"; sourceTree = "<group>"; };
+		F05307C7179E151400ACB537 /* ssortTest.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = ssortTest.s; sourceTree = "<group>"; };
+		F05307C8179E152B00ACB537 /* ssort.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = ssort.s; sourceTree = "<group>"; };
+		F05307C9179E176C00ACB537 /* bsort-BsortUnitSortTest.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "bsort-BsortUnitSortTest.s"; sourceTree = "<group>"; };
+		F05307CA179F5BD200ACB537 /* bsort-design1.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "bsort-design1.s"; sourceTree = "<group>"; };
+		F05307CB179F5D6800ACB537 /* bsort-design1Test.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "bsort-design1Test.s"; sourceTree = "<group>"; };
+		F0F4577517A35B3400B851DB /* bsort-design2.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "bsort-design2.s"; sourceTree = "<group>"; };
+		F0F4577617A35B4E00B851DB /* bsort-design2Test.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "bsort-design2Test.s"; sourceTree = "<group>"; };
+		F0F4577717A35B9900B851DB /* vc-TestSinglePortMem.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "vc-TestSinglePortMem.s"; sourceTree = "<group>"; };
+		F0F4577817A35BAD00B851DB /* vc-TestSinglePortMemTest.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "vc-TestSinglePortMemTest.s"; sourceTree = "<group>"; };
+		F0F4577917A4A90000B851DB /* bsort-design2TestNEW.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "bsort-design2TestNEW.s"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		F042958517989E4B001DAF44 = {
 			isa = PBXGroup;
 			children = (
+				F046AA3317A73B3F009F16FD /* bsort-design2TestOld2.s */,
+				F0F4577917A4A90000B851DB /* bsort-design2TestNEW.s */,
+				F0F4577817A35BAD00B851DB /* vc-TestSinglePortMemTest.s */,
+				F0F4577717A35B9900B851DB /* vc-TestSinglePortMem.s */,
+				F0F4577617A35B4E00B851DB /* bsort-design2Test.s */,
+				F0F4577517A35B3400B851DB /* bsort-design2.s */,
+				F05307CB179F5D6800ACB537 /* bsort-design1Test.s */,
+				F05307CA179F5BD200ACB537 /* bsort-design1.s */,
+				F05307C9179E176C00ACB537 /* bsort-BsortUnitSortTest.s */,
+				F05307C7179E151400ACB537 /* ssortTest.s */,
+				F05307C8179E152B00ACB537 /* ssort.s */,
+				F0429599179C82CE001DAF44 /* cmult_manager.s */,
+				F0429598179C824C001DAF44 /* cmult-demo.s */,
+				F042959217989F6A001DAF44 /* bsort-BsortUnitFetch.s */,
+				F042959117989F12001DAF44 /* bsort-BsortUnitSortDpath.s */,
+				F042959017989F02001DAF44 /* bsort-BsortUnitSortCtrl.s */,
+				F0429597179B2E04001DAF44 /* bsort-BsortUnitSort.s */,
+				F042958F17989ED8001DAF44 /* bsort-BsortUnit.s */,
+				F042959617989FF9001DAF44 /* gcd-GcdUnitDpath.s */,
+				F042959517989FD6001DAF44 /* gcd-GcdUnitCtrl.s */,
+				F042959417989FBF001DAF44 /* gcd-GcdUnit.s */,
 			);
 			sourceTree = "<group>";
 		};
